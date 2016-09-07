@@ -11,7 +11,7 @@ namespace HexagonService.Entity
         public int Id { get; set; }
         public Player FirstPlayer { get; set; }
         public Player SecondPlayer { get; set; }
-        public int Score { get; set; }
+        public int Score { get; set; } 
         public int WonPlayer { get; set; }
         public int Status { get; set; }
         public DateTime RecordedTime { get; set; }
